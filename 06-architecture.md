@@ -9,12 +9,14 @@
 ```mermaid
 flowchart TB
     subgraph Entry["Entry Points / Surfaces"]
+      direction LR
       CLI[CLI / TUI]
       GW[Messaging Gateway]
       ACP[ACP]
       API[API Server]
       BATCH[Batch Runner]
       PY[Python Library]
+      CLI ~~~ GW ~~~ ACP ~~~ API ~~~ BATCH ~~~ PY
     end
 
     subgraph Core["Narrow Waist: Agent Core"]
