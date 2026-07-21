@@ -19,16 +19,13 @@ Hermes Agent 的资料很丰富，但新人容易遇到三个问题：
 这套 Wiki 按“先使用，再理解运行机制，最后进入源码”的顺序组织内容。
 
 ```mermaid
-flowchart LR
-    A[01 认识 Hermes] --> B[02 安装并跑起来]
-    B --> C[03 核心概念]
-    C --> D[04 Agent Loop 与 LLM 请求]
-    D --> E[05 Memory / Skills / Self-improvement]
-    E --> F[06 软件架构]
-    F --> G[07 自动化与多代理 编排]
-    G --> H[08 Gateway 与集成]
-    H --> I[09 安全与信任边界]
-    I --> J[10 实战经验]
+flowchart TB
+    A[第一步：快速上手<br/>01 Overview<br/>02 Quickstart]
+    B[第二步：理解运行机制<br/>03 Core Concepts<br/>04 Agent Loop & LLM Request<br/>05 Memory / Skills / Self-improvement]
+    C[第三步：建立架构视角<br/>06 Architecture<br/>07 Automation & Orchestration<br/>08 Gateway & Integrations<br/>09 Security]
+    D[第四步：进入实践<br/>10 Practical Guide]
+
+    A --> B --> C --> D
 ```
 
 ## 文档导航
