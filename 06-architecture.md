@@ -18,7 +18,7 @@ flowchart TB
     end
 
     subgraph Core["Narrow Waist: Agent Core"]
-      AG[AIAgent / Agent Loop]
+      AG[AI Agent / Agent Loop]
       PB[Prompt Assembly]
       PR[Provider Resolution]
       TD[Tool Dispatch]
@@ -77,7 +77,7 @@ CLI、Gateway、ACP、Batch 和 API 不应该各自实现一套 Agent。
 1. 新 Surface 不需要复制 Agent 能力；
 2. 核心行为更容易保持一致。
 
-## 3. AIAgent
+## 3. AI Agent
 
 `run_agent.py` 中的 `AIAgent` 是核心同步编排引擎。
 
@@ -148,7 +148,7 @@ adapter behavior
 flowchart LR
     L[LLM Tool Call] --> MT[model_tools orchestration]
     MT --> AL{Agent-level Tool?}
-    AL -- Yes --> A[AIAgent internal handling]
+    AL -- Yes --> A[AI Agent internal handling]
     AL -- No --> R[tools/registry.py]
     R --> H[Concrete Handler]
     H --> OUT[Tool Result]
@@ -250,7 +250,7 @@ Gateway 负责长期连接与消息生命周期，而不是核心推理。
 flowchart LR
     P[Platform Adapter] --> R[Routing / Auth]
     R --> S[Session]
-    S --> A[AIAgent]
+    S --> A[AI Agent]
     A --> D[Delivery]
     D --> P
 ```
@@ -275,7 +275,7 @@ Gateway 可以做：
 flowchart TB
     A[Agent Core]
     A --> D[delegate_task]
-    D --> S[Child AIAgent / 子代理]
+    D --> S[Child AI Agent / 子代理]
     A --> K[Kanban Orchestrator]
     K --> DB[(Selected Board DB)]
     DB --> W[Independent Profile Workers]
