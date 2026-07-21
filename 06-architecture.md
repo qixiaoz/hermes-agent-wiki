@@ -2,8 +2,6 @@
 
 > **目标**：建立一个足够稳定、能映射到源码、但不过度依赖当前文件行号的架构模型。
 
-> **事实核验基线**：2026-07-21；术语规范见 [reference/terminology.md](./reference/terminology.md)。
-
 ## 1. 顶层架构
 
 ```mermaid

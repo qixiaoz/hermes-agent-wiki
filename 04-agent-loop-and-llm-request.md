@@ -2,8 +2,6 @@
 
 > **目标**：理解“我给 Hermes 发一句话”之后，真正进入 LLM 的是什么，以及 Tool、MCP、Skill、Memory、Session Search 如何参与循环。
 
-> **事实核验基线**：2026-07-21；术语规范见 [reference/terminology.md](./reference/terminology.md)。
-
 ## 1. 不是把用户原话直接转发给 LLM
 
 逻辑上，一次请求更接近：

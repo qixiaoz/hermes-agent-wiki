@@ -2,8 +2,6 @@
 
 > **目标**：区分子代理（Subagent）、Cron 和 Kanban，并理解 Hermes 如何从单 Agent 扩展到长期工作流。
 
-> **事实核验基线**：2026-07-21；术语规范见 [reference/terminology.md](./reference/terminology.md)。
-
 ## 1. 三种机制解决三种问题
 
 ```mermaid

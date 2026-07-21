@@ -2,8 +2,6 @@
 
 > **目标**：在进入 Agent Loop 和源码前，先统一术语。
 
-> **事实核验基线**：2026-07-21；术语规范见 [reference/terminology.md](./reference/terminology.md)。
-
 ## 1. 一张概念关系图
 
 ```mermaid

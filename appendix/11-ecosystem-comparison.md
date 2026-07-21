@@ -1,7 +1,5 @@
 # 11 · Hermes、Claude Code、OpenCode、OpenClaw：架构定位对比
 
-> **事实核验基线：2026-07-21**  
-> 术语规范见 [reference/terminology.md](../reference/terminology.md)。  
 > 这是一个快速演进领域。本篇不使用“✅/❌ 功能清单”作为主要结论，而比较能力是否原生、处于什么架构层，以及系统主要优化什么。
 
 ## 1. 先分清比较层级
@@ -327,7 +325,7 @@ Coding Agent 专注深度软件工程。
 - OpenCode 的 Session、Server、ACP 与 Skills 发展很快；
 - OpenClaw 的 Memory、Gateway 与多代理路由 仍在高频演进。
 
-因此本篇必须保留明确日期，不能被视为长期不变的功能矩阵。
+因此本篇不能被视为长期不变的功能矩阵，相关竞品状态应以当前官方文档为准。
 
 ## 主要来源
 

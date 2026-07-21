@@ -2,8 +2,6 @@
 
 > **目标**：理解 Hermes 如何成为一个长期运行、可从不同消息平台访问的 Agent Runtime。
 
-> **事实核验基线**：2026-07-21；术语规范见 [reference/terminology.md](./reference/terminology.md)。
-
 ## 1. 先区分四个概念
 
 ### Surface

@@ -2,8 +2,6 @@
 
 > **目标**：在使用 Terminal、Gateway、Cron、Computer Use、MCP、Self-improvement 和多代理能力前，先建立正确的安全模型。
 
-> **事实核验基线**：2026-07-21；术语规范见 [reference/terminology.md](./reference/terminology.md)。
-
 ## 1. 最重要的一句话
 
 > **Hermes 是高权限 Agent Runtime，不是天然安全的 Sandbox。**

@@ -3,8 +3,6 @@
 > **目标**：理解 Hermes 所谓“长期学习”和“自我进化”的真实机制。  
 > 关键结论：**Hermes 在线进化的主要对象是外部持久状态，不是基础模型权重。**
 
-> **事实核验基线**：2026-07-21；术语规范见 [reference/terminology.md](./reference/terminology.md)。
-
 ## 1. 三种长期知识
 
 ```mermaid

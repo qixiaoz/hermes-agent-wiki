@@ -3,8 +3,6 @@
 > **目标**：用 10 分钟建立对 Hermes Agent 的整体认识。  
 > **事实边界**：本篇只讨论相对稳定的产品定位和架构思想，不维护 Provider、平台或 Tool 的精确数量。
 
-> **事实核验基线**：2026-07-21；术语规范见 [reference/terminology.md](./reference/terminology.md)。
-
 ## 1. 一句话定义
 
 **Hermes Agent 是一个开源的个人 AI Agent Runtime。**
