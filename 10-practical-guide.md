@@ -187,41 +187,7 @@ Fallback 可以让长期任务继续运行。
 
 这是个人成本策略，不是 Hermes 官方硬规则。
 
-## 10. 关于 Git：不要使用绝对化建议
-
-以前我倾向说：
-
-> “不要 revert，永远 rebase。”
-
-这是过度绝对。
-
-更合理的判断：
-
-### 已共享历史
-
-优先考虑：
-
-```bash
-git revert
-```
-
-因为它不会重写其他人已经依赖的历史。
-
-### 个人分支 / 明确允许重写
-
-可以：
-
-```bash
-git fetch origin
-git rebase -i
-git push --force-with-lease
-```
-
-注意：
-
-> `--force-with-lease` 不会自动替你执行 `git fetch`。
-
-## 11. 关于 Secret
+## 10. 关于 Secret
 
 不要让 Agent 通过“读取整个 `.env`”来判断凭证是否有效。
 
@@ -235,7 +201,7 @@ Credential Layer
 
 尽量避免 Secret 原文进入模型上下文。
 
-## 12. 关于 Self-improvement
+## 11. 关于 Self-improvement
 
 建议先从“人工监督模式”使用。
 
@@ -249,7 +215,7 @@ flowchart LR
 
 当你对 Agent 的行为和 Skill 库质量建立信任后，再决定是否放宽自动写入。
 
-## 13. 关于 Curator
+## 12. 关于 Curator
 
 Skill 越多，目录越可能出现：
 
@@ -268,7 +234,7 @@ hermes curator status
 
 在真正修改前先使用 Dry Run（具体参数以当前 CLI 为准）。
 
-## 14. 我的使用哲学
+## 13. 我的使用哲学
 
 我现在更愿意把 Hermes 理解成：
 
@@ -285,7 +251,7 @@ hermes curator status
 
 这些资产比“今天默认模型是什么”更耐久。
 
-## 15. 给新用户的顺序建议
+## 14. 给新用户的顺序建议
 
 ```text
 1. 先跑通基础 Chat
